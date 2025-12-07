@@ -45,7 +45,7 @@
     btn.addEventListener("click", () => {
       clicks++;
       contador.textContent = `${clicks} / 1000`;
-      if (clicks >= 1000) {
+      if (clicks >= 10) {
         mensaje.style.display = "block";
         btn.disabled = true;
       }
